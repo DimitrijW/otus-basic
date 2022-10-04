@@ -30,3 +30,22 @@
 *.exe
 *.out
 *.app
+
+# CMake build
+build/*
+!build/build.xml
+
+06-otus-basic-cmake/build/*
+!06-otus-basic-cmake/build/build.xml
+
+06-otus-basic-cmake/example1/build/*
+!06-otus-basic-cmake/example1/build/build.xml
+
+06-otus-basic-cmake/example2/build/*
+!06-otus-basic-cmake/example2/build/build.xml
+
+06-otus-basic-cmake/example3/build/*
+!06-otus-basic-cmake/example3/build/build.xml
+
+06-otus-basic-cmake/example4/build/*
+!06-otus-basic-cmake/example4/build/build.xml
